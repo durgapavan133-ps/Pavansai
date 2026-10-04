@@ -37,34 +37,81 @@
 </div>
 
 
-<!-- About Me -->
+<!-- ==================== ABOUT ME ==================== -->
+
 <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
-### <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px"> About me
-
-### About Me
+### 👨‍💻 About Me
 
 ```javascript
 const pavanSai = {
+
+    name: "Pavan Sai",
+
     location: "India 🇮🇳",
-    field: "Data Science",
-    learning: ["Python", "SQL", "Machine Learning", "DSA"],
-    skills: ["Python", "C", "Java", "SQL", "Pandas", "NumPy", "Excel", "Power BI"],
-    dataScience: ["Machine Learning", "Data Analysis", "Data Visualization"],
-    databases: ["MySQL", "MongoDB"],
-    tools: ["Git", "GitHub", "VS Code", "Jupyter Notebook"],
+
+    education: "B.Tech CSE - Data Science",
+
+    role: "Aspiring Data Analyst",
+
+    learning: [
+        "Python",
+        "SQL",
+        "Data Structures & Algorithms",
+        "Machine Learning",
+        "Power BI",
+        "Excel"
+    ],
+
+    skills: [
+        "Python",
+        "SQL",
+        "Pandas",
+        "NumPy",
+        "Excel",
+        "Power BI",
+        "Machine Learning"
+    ],
+
+    databases: [
+        "MySQL",
+        "MongoDB"
+    ],
+
+    tools: [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Jupyter Notebook"
+    ],
+
+    interests: [
+        "Data Analytics",
+        "Machine Learning",
+        "Problem Solving",
+        "Data Visualization"
+    ],
+
+    currentlyWorkingOn: [
+        "Data Analytics Projects",
+        "Machine Learning Projects",
+        "DSA Problems"
+    ],
+
+    goal: "Become a skilled Data Analyst 🚀",
 
     lifeLoop: function() {
-        while(alive) {
+        while (alive) {
             learn();
-            code();
-            analyzeData();
+            practice();
             buildProjects();
-            solveProblems();
+            analyzeData();
+            improve();
             repeat();
         }
     }
 };
+```
 
 <br clear="right"/>
 
